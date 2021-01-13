@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&family=Xanh+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400&family=Redressed&family=Xanh+Mono&display=swap');
+
+body {background-color: black;}
+
+p {font-size: 25px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 900;
+    text-align: right;
+    padding: 2px;}
+
+
+.main {width: 300px;
+       height: 570px;
+       background-color: rgb(61, 58, 58);
+       margin: auto;
+       border-radius: 10px;
+       border-style: double;
+       border-color: white;
+       margin-top: 50px;}
+
+
+       .display1 {width: 270px;
+        height: 38px; 
+        background-color: rgb(115, 192, 175);
+        margin: auto;
+        border-radius: 10px 10px 0px 0px;
+        border-style: double;
+        border-color: black;
+        font-size: 25px;
+        font-family: 'Rajdhani', sans-serif;
+        text-align: right;
+        padding-right: 10px;}
+
+.display {width: 270px;
+          height: 50px;
+          background-color: rgb(115, 192, 175);
+          margin: auto;
+          border-radius: 0px 0px 10px 10px;
+          border-style: double;
+          border-color: black;
+          font-size: 35px;
+          font-family: 'Rajdhani', sans-serif;
+          font-weight: 900;
+          text-align: right;
+          padding-right: 10px;}
+
+.first-row {width: 280px;}
+
+.first-row button {width: 50px;
+                   height: 50px;
+                   color: white;
+                   background-color: black;
+                   margin-top: 40px;
+                   border-radius: 50px;
+                   font-weight: 900;
+                   }
+
+.second-row button {width: 50px;
+                     height: 50px;
+                     color: black;
+                     background-color: rgb(189, 173, 173);
+                     margin-top: 20px;
+                     border-radius: 50px;
+                     font-weight: 900;
+                     font-size: 30px;}
+
+.third-row button {width: 50px;
+                        height: 50px;
+                        color: black;
+                        background-color: rgb(189, 173, 173);
+                        margin-top: 20px;
+                        border-radius: 50px;
+                        font-weight: 900;
+                        font-size: 30px;}
+
+.fourth-row button {width: 50px;
+                           height: 50px;
+                           color: black;
+                           background-color: rgb(189, 173, 173);
+                           margin-top: 20px;
+                           border-radius: 50px;
+                           font-weight: 900;
+                           font-size: 30px;}
+                           
+.fifth-row button {width: 50px;
+                    height: 50px;
+                    color: black;
+                    background-color: rgb(189, 173, 173);
+                    margin-top: 20px;
+                    border-radius: 50px;
+                    font-weight: 900;
+                    font-size: 30px;}
+
+#zero {width: 120px;}
+#equals {height: 120px;
+         background-color: rgb(248, 166, 14);}
+
+
+h4 {text-align: right;
+    font-size: 30px;
+    font-family: 'Rajdhani', sans-serif;
+    margin-top: 5px;}
+
+h3 {color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Redressed', cursive;
+    font-size: 50px;}
+
+
+@media only screen and (min-width:200px) and (max-width:1100px){
+
+.main {height: 1600px;
+       width: 90%;}
+      
+h3 {font-size: 130px;}      
+      
+.display1 {width: 80%;
+    height: 90px;}
+
+.display {width: 80%;
+      height: 150px;
+      }
+
+      .first-row button {width: 120px;
+        height: 120px;
+        color: white;
+        border-radius: 50px;
+        font-weight: 900;
+        font-size: 50px;
+        margin-left: 100%;}
+
+        .second-row button {width: 120px;
+            height: 120px;
+            border-radius: 50px;
+            font-weight: 900;
+            font-size: 50px;
+            margin-left: 100%;}
+        
+            .third-row button {width: 120px;
+                height: 120px;
+                border-radius: 50px;
+                font-weight: 900;
+                font-size: 50px;
+                margin-left: 100%;}
+
+                .fourth-row button {width: 120px;
+                    height: 120px;
+                    border-radius: 50px;
+                    font-weight: 900;
+                    font-size: 50px;
+                    margin-left: 100%;}
+
+                    .fifth-row button {width: 120px;
+                        height: 120px;
+                        border-radius: 50px;
+                        font-weight: 900;
+                        font-size: 50px;
+                        margin-left: 100%;}
+
+                        #zero {width: 300px;
+                        margin-left: 45%;}
+
+                        #equals {height: 300px;}
+
+
+
+
+
+      }
