@@ -111,61 +111,49 @@ h3 {color: white;
 
 @media only screen and (min-width:200px) and (max-width:1100px){
 
-.main {height: 1600px;
+.main {height: 1500px;
        width: 90%;}
       
-h3 {font-size: 130px;}      
+h3 {font-size: 130px;
+    padding-top: 5%;}      
       
 .display1 {width: 80%;
-    height: 90px;}
+    height: 90px;
+    font-size: 70px;}
 
 .display {width: 80%;
       height: 150px;
-      }
+      font-size: 95px;}
 
-      .first-row button {width: 120px;
-        height: 120px;
-        color: white;
-        border-radius: 50px;
-        font-weight: 900;
-        font-size: 50px;
-        margin-left: 100%;}
-
-        .second-row button {width: 120px;
-            height: 120px;
-            border-radius: 50px;
-            font-weight: 900;
-            font-size: 50px;
-            margin-left: 100%;}
-        
-            .third-row button {width: 120px;
-                height: 120px;
-                border-radius: 50px;
-                font-weight: 900;
-                font-size: 50px;
-                margin-left: 100%;}
-
-                .fourth-row button {width: 120px;
-                    height: 120px;
-                    border-radius: 50px;
-                    font-weight: 900;
-                    font-size: 50px;
-                    margin-left: 100%;}
-
-                    .fifth-row button {width: 120px;
-                        height: 120px;
-                        border-radius: 50px;
-                        font-weight: 900;
-                        font-size: 50px;
-                        margin-left: 100%;}
-
-                        #zero {width: 300px;
-                        margin-left: 45%;}
-
-                        #equals {height: 300px;}
+table {width: 80%;
+       height: 50%;
+       margin-left: 12%;
+       margin-top: 10%;}     
+    
 
 
+.first-row button {height: 100px;
+                   width: 100px;
+                   font-size: 45px;}
 
+.second-row button {height: 100px;
+                    width: 100px;
+                    font-size: 45px;}
 
+.third-row button {height: 100px;
+                    width: 100px;
+                    font-size: 45px;}
+
+.fourth-row button {height: 100px;
+                     width: 100px;
+                     font-size: 45px;}
+                
+.fifth-row button {height: 100px;
+                   width: 100px;
+                   font-size: 45px;}
+
+#zero {width: 280px;}
+
+#equals {height: 280px;}
 
       }
